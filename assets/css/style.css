@@ -1781,7 +1781,7 @@ blockquote {
   background-position: center right;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../images/backgrounds/footer_map.png"); }
+  /*background-image: url("../images/backgrounds/footer_map.png");*/ }
 
 .xs-footer-top-layer {
   padding-top: 110px;
