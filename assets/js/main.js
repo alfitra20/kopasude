@@ -183,7 +183,7 @@ $(document).ready(function() {
 	var number_percentage = $(".number-percentage");
 	function animateProgressBar(){
 		number_percentage.each(function() {
-		$(this).animateNumbers($(this).attr("data-value"), true, parseInt($(this).attr("data-animation-duration"), 1000));
+		$(this).animateNumbers($(this).attr("data-value"), true, parseInt($(this).attr("data-animation-duration"), 0));
 				var value = $(this).attr("data-value");
 				var duration = $(this).attr("data-animation-duration");
 		$(this).closest('.xs-skill-bar').find('.xs-skill-track').animate({
